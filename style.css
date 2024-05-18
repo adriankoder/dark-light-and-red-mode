@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.darkMode{
+    background-color: black;
+    color: white;
+}
+.redMode{
+    background-color: red;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+
+list-style-type: none;
+padding-left: 0;
+}
+
+.hamburger{
+    height: 32px;
+    width: 32px;
+}
+
+.active{
+display:flex;
+flex-direction: column;
+}
+
+.hidden{
+    display:none;}
